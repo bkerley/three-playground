@@ -17,7 +17,7 @@
     groundMat.color.setHSL(0.095, 1, 0.75);
     ground = new THREE.Mesh(groundGeo, groundMat);
     ground.rotation.x = -Math.PI / 2;
-    ground.position.y = -5;
+    ground.position.y = -2;
     ground.receiveShadow = true;
     scene.add(ground);
     geometry = new THREE.BoxGeometry(1, 1, 1);
